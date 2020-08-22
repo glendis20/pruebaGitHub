@@ -126,6 +126,7 @@ img {
     margin-left: 170px;
     margin-top: 50px;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 /* Configuración de estilos para parte de Andres Cardona: Fotos al final y Footer de la página*/
 #LastSection{
@@ -164,5 +165,12 @@ img {
 #links a{
  text-decoration: none;
      color: green;
+}
+#copyrights{
+    background-color:rgb(219, 174, 107);
+    font-size: 12px;
+    text-align: center;
+    color:rgb(126, 88, 30);
+    padding: 20px;
 }
 /* Fin de css Andres Cardona */
