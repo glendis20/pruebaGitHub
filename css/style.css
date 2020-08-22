@@ -1,7 +1,9 @@
 
-*{
-    box-sizing: border-box;}
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     margin: 0px;
@@ -87,6 +89,43 @@ img {
     font-weight: 600;
     font-size: 3em;
     text-align: center;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.columna1 {
+    float: left;
+    width: 52%;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.columna2 {
+    overfloat: hidden;
+    width: 40%;
+    margin-left: 20px;
+    
+}
+
+.bloqueTexto {
+    text-align: center;
+    
+}
+
+.hierba-buena {
+    width: 65%;
+    margin-left: 170px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 /* Configuración de estilos para parte de Andres Cardona: Fotos al final y Footer de la página*/
 #LastSection{
