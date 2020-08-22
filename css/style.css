@@ -26,6 +26,17 @@
     margin-bottom: 2%;
     justify-content: space-around;
 }
+#links{
+    display: flex;
+    flex-direction: column;
+
+   
+}
+#links a{
+ text-decoration: none;
+     color: green;
+}
+/* Fin de css Andres Cardona */
 *{
     box-sizing: border-box;}
 
