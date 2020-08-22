@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+.navegacion-1 {
+    background-color: rgb(219, 174, 107);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navegacion-1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.enfrente {
+    align-items: flex-end;
+}
+
+.navegacion-1 a {
+    color: rgb(126, 88, 30);
+    text-decoration: none;
+    padding: 1em;
+    font-size: 11.904px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+.logo {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    bottom: 40px;
+    right: 40px;
+
+}
+.navegacion-2 {
+    color: rgb(255, 207, 74);
+    font-size: 1em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.navegacion-2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navegacion-2 a {
+    color:rgb(126, 88, 30);
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+    justify-content: right;
+}
+.background-image {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../src/images/henry-be-IicyiaPYGGI-unsplash.jpg);
+    padding: 1em 2em;
+    z-index: 1;
+}
+.nombre{
+    color:rgb(126, 88, 30);
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
